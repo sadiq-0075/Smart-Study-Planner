@@ -1,73 +1,88 @@
-# Smart-Study-Planner
-Smart Study Planner Pro is a web app to manage tasks, track assignments, and build study habits. It includes subjects, deadlines, priorities, streak tracking, and coding practice for LeetCode, HackerRank, and GeeksforGeeks. Built with HTML, CSS, and JavaScript for a clean, responsive experience.
+# 🛒 Multi-Vendor E-Commerce Platform
 
-Features
+## 📌 Overview
+This project is a multi-vendor e-commerce website that allows multiple sellers to register, manage their products, and sell through a single platform.
 
-Task Management:
+It provides:
+- A smooth shopping experience for customers  
+- Dedicated dashboards for vendors  
+- Full control panel for administrators  
 
-1 Add, update, and delete study tasks
+---
 
-2 Set deadlines and priority levels (High, Medium, Low)
+## 🚀 Features
 
-3 Mark tasks as completed
+- 🏪 Multi-Vendor System  
+  Multiple vendors can register and sell products on one platform  
 
-4 Filter tasks (All, Completed, Pending, High Priority)
+- 🛍️ Customer Storefront  
+  Clean and responsive UI for browsing and purchasing products  
 
-5 Automatic highlighting of overdue tasks
+- 📊 Vendor Dashboard  
+  Manage products, track orders, and view sales performance  
 
-Dynamic Subject & Assignment Tracker:
+- ⚙️ Admin Panel  
+  Monitor vendors, products, and platform activity  
 
-1 Create subjects dynamically
+- 📱 Responsive Design  
+  Works across mobile, tablet, and desktop devices  
 
-2 Track assignments (1–5) for each subject
+---
 
-3 Checklist-based progress system
+## 🛠️ Tech Stack
 
-4 Visual progress tracking per subject
+- **Framework:** Next.js  
+- **Styling:** Tailwind CSS  
+- **UI Components:** Lucide React  
+- **State Management:** Redux Toolkit  
 
-Daily Streak System: 1 Tracks daily login activity
+---
 
-2 Encourages consistent study habits
+## 📂 Project Structure
 
-3 Automatically updates streak based on usage
+```bash
+/pages        → Application routes
+/components   → Reusable UI components
+/redux        → State management
+/styles       → Styling files
+```
 
-Coding Practice Tracker:
+---
 
-1 Daily tracking for:
+## ⚙️ Installation
 
-->LeetCode
+```bash
+# Clone repository
+git clone https://github.com/your-username/your-repo-name.git
 
-->HackerRank
+# Go to project folder
+cd your-repo-name
 
-->GeeksforGeeks
+# Install dependencies
+npm install
 
-“Solve at least one problem daily” system
+# Start development server
+npm run dev
+```
 
-Direct links to platforms
+---
 
-Progress Dashboard: 1 Weekly productivity insights
+## ▶️ Usage
 
-2 Visual charts using Chart.js
+1. Open the application in browser  
+2. Register as a vendor or customer  
+3. Vendors can add and manage products  
+4. Customers can browse and place orders  
+5. Admin can manage the entire platform  
 
-3 Tracks completed vs pending tasks
+---
 
-Authentication: 1 Google Login integration using Google Identity Services
+## 📌 Future Improvements
 
-2 Personalized tracking using user identity
+- 💳 Payment gateway integration  
+- 📦 Order tracking system  
+- ⭐ Product reviews and ratings  
+- 🔐 Improved authentication  
 
-Modern UI/UX: 1 Fully responsive dark theme
-
-2 Dashboard-based layout with navigation bar
-
-3 Smooth animations and interactive elements
-
-4 Clean and minimal design for better usability
-
-Tech Stack: 1 HTML5
-
-2 CSS3 (Dark Theme + Responsive Design)
-
-3 JavaScript (Vanilla JS)
-
-4 LocalStorage (Client-side data persistence)
+---
 
